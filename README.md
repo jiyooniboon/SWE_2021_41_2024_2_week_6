@@ -5,7 +5,7 @@
 > Write python code that determines whether or not a given integer is happy
 
 ### My submission
-<code>
+```
 def isHappy(n):
 
   prev = []
@@ -28,7 +28,7 @@ def isHappy(n):
 
   print(prev)
   return True
-</code>
+```
 
 - Keep track of what n was with the list prev
 - For every loop, calculate the next number using the variable temp
@@ -45,11 +45,11 @@ def isHappy(n):
 
 ### My submission
 
-<code> docker exec ossp-container cat /etc/os-release </code>
-Prints information on the OS used inside the container. 
-<code> docker exec ossp-container git —version </code>
-Prints the version of git installed in the container. 
-<code> docker exec ossp-container python --version </code>
-Prints the version of python installed in the container.
-<code> docker inspect -format="{{ .HostConfig.Binds }}" ossp-container </code>
-Prints the bind mounts associated with the container, in this format: <code>host_path:container_path</code>.
+<code> docker exec ossp-container cat /etc/os-release </code> <br>
+Prints information on the OS used inside the container. <br>
+<code> docker exec ossp-container git —version </code> <br>
+Prints the version of git installed in the container. <br>
+<code> docker exec ossp-container python --version </code> <br>
+Prints the version of python installed in the container. <br>
+<code> docker inspect -format="{{ .HostConfig.Binds }}" ossp-container </code> <br>
+Prints the bind mounts associated with the container, in this format: <code>host_path:container_path</code>. <br>
