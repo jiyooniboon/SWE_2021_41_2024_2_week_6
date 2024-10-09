@@ -41,7 +41,7 @@ def isHappy(n):
 ## Week 5 Assignment
 
 > Introduction to Docker. <br>
-> Set up an environment for a container with Linux OS, git, and python. Should also have a bound mount.
+> Set up an environment for a container with Linux OS, git, and python. Should also have a bind mount.
 
 ### My submission
 
