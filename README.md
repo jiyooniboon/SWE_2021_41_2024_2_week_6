@@ -1,7 +1,7 @@
 # SWE_2021_41_2024_2_week_6
 
 ## Week 4 Assignment 
-> Introduction to Python.
+> Introduction to Python. <br>
 > Write python code that determines whether or not a given integer is happy
 
 ### My submission
@@ -40,16 +40,24 @@ def isHappy(n):
 
 ## Week 5 Assignment
 
-> Introduction to Docker.
+> Introduction to Docker. <br>
 > Set up an environment for a container with Linux OS, git, and python. Should also have a bound mount.
 
 ### My submission
 
+![alt text](screenshot.png)
+
 <code> docker exec ossp-container cat /etc/os-release </code> <br>
-Prints information on the OS used inside the container. <br>
+Prints information on the OS used inside the container. 
+
+
 <code> docker exec ossp-container git —version </code> <br>
-Prints the version of git installed in the container. <br>
+Prints the version of git installed in the container. 
+
+
 <code> docker exec ossp-container python --version </code> <br>
-Prints the version of python installed in the container. <br>
+Prints the version of python installed in the container. 
+
+
 <code> docker inspect -format="{{ .HostConfig.Binds }}" ossp-container </code> <br>
-Prints the bind mounts associated with the container, in this format: <code>host_path:container_path</code>. <br>
+Prints the bind mounts associated with the container, in this format: <code>host_path:container_path</code>.
